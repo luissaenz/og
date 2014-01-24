@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OncoGuía</title>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../css/jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.scrollview.css" />
+		<link rel="stylesheet" href="../css/imo.css"/>
+		<link rel="stylesheet" href="../css/custom.css"/>
+		<link rel="stylesheet" href="../css/grid/jquery-mobile-fluid960.min.css"/>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/general.functions.js"></script>
+		<script src="../js/jquery.mobile-1.1.0.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/jquery.mobile.scrollview.js"></script>
+		<script src="../js/scrollview.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="detalle-cancer" data-theme="c">
+			<div data-role="header" data-id="cabecera"  data-position="fixed">
+			<a href="#" data-theme="c" data-icon="back" data-rel="back" data-position="inline">Volver</a>
+				<h1>
+					OncoGuía - Tipos de cáncer
+				</h1>
+			</div>
+			<div data-role="content" class="container_12 ui-scrollview-clip">
+			<div class="grid_4">
+				<div data-scroll="y" class="scrolling-content w-background">
+				<ul id="cancer-list" data-filter="true" data-filter-theme="f" data-role="listview" data-theme="a" data-inset="true">
+					<li>
+					<a href="adenoma-de-hipofisis.html">
+					<img src="../images/cancer/adenoma-hipofisis-thumb.jpg" alt="Adenoma de Hipófisis" />
+					<div class="ui-li-heading">Adenoma de Hipófisis</div>
+					<div class="ui-li-desc">Glándula situada en la silla turca</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="colon.html">
+					<img src="../images/cancer/colon-thumb.jpg" alt="Colon" />
+					<div class="ui-li-heading">Colon</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="cuello-uterino-cervix.html">
+					<img src="../images/cancer/cuello-uterino-cervix-thumb.jpg" alt="Cuello Uterino/Cérvix" />
+					<div class="ui-li-heading">Cuello Uterino/Cérvix</div>
+					<div class="ui-li-desc">parte más inferior del aparato rep. femenino</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="endometrio-utero.html">
+						<img src="../images/cancer/endometrio-utero-thumb.jpg" alt="Endometrio/útero" />
+					<div class="ui-li-heading">Endometrio/útero</div>
+					<div class="ui-li-desc">órgano hueco, situado en la pelvis.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="esofago.html">
+						<img src="../images/cancer/esofago-thumb.jpg" alt="Esófago" />
+					<div class="ui-li-heading">Esófago</div>
+					<div class="ui-li-desc">tubo hueco que transporta los alimentos</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="estomago.html">
+						<img src="../images/cancer/estomago-thumb.jpg" alt="Estómago" />
+					<div class="ui-li-heading">Estómago</div>
+					<div class="ui-li-desc">sitúado en la parte alta del abdomen</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="gliomas.html">
+						<img src="../images/cancer/gliomas-thumb.jpg" alt="Gliomas" />
+					<div class="ui-li-heading">Gliomas</div>
+					<div class="ui-li-desc">Tumores cerebrales que proceden de las células gliales</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="mama.html">
+						<img src="../images/cancer/mama-thumb.jpg" alt="Mama" />
+					<div class="ui-li-heading">Mama</div>
+					<div class="ui-li-desc">Glándula destinada a la producción de leche</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="tumor-medula-espinal.html">
+						<img src="../images/cancer/medula-espinal-thumb.jpg" alt="Tumor Médula Espinal" />
+					<div class="ui-li-heading">Médula Espinal</div>
+					<div class="ui-li-desc">el tejido nervioso más extenso del cuerpo</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meduloblastoma.html">
+						<img src="../images/cancer/meduloblastoma-thumb.jpg" alt="Meduloblastoma" />
+					<div class="ui-li-heading">Meduloblastoma</div>
+					<div class="ui-li-desc">tumores malignos en la fosa posterior del cerebro</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="melanoma.html">
+						<img src="../images/cancer/melanoma-thumb.jpg" alt="Melanoma" />
+					<div class="ui-li-heading">Melanoma</div>
+					<div class="ui-li-desc">Crecimiento de los melanocitos</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meningiomas.html">
+						<img src="../images/cancer/meningiomas-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">Meningiomas</div>
+					<div class="ui-li-desc">Tumor cerebral usualmente benigno</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="metastasis-cerebrales.html">
+						<img src="../images/cancer/metastasis-cerebrales-thumb.jpg" alt="Metástasis Cerebrales" />
+					<div class="ui-li-heading">Metástasis Cerebrales</div>
+					<div class="ui-li-desc">Lesiones tumorales situadas en el cerebro y que proceden de otros tumores</div>
+					</a>
+					</li>
+				
+					<li>
+					<a href="no-melanoma.html">
+						<img src="../images/cancer/no-melanoma-thumb.jpg" alt="No Melanoma" />
+					<div class="ui-li-heading">No Melanoma</div>
+					<div class="ui-li-desc">El tumor más frecuente del ser humano</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="pancreas.html">
+						<img src="../images/cancer/pancreas-thumb.jpg" alt="Páncreas" />
+					<div class="ui-li-heading">Páncreas</div>
+					<div class="ui-li-desc">Glándula que participa en el proceso de la digestión</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="prostata.html">
+						<img src="../images/cancer/prostata-thumb.jpg" alt="Próstata" />
+					<div class="ui-li-heading">Próstata</div>
+					<div class="ui-li-desc">Glándula sexual exclusiva de los varones</div>
+					</a>
+					</li>
+
+					<li data-theme="b">
+					<a href="pulmon.html">
+						<img src="../images/cancer/pulmon-thumb.jpg" alt="Pulmón" />
+					<div class="ui-li-heading">Pulmón</div>
+					<div class="ui-li-desc">Dos pulmones (derecho e izquierdo) localizados en el tórax.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="recto.html">
+						<img src="../images/cancer/recto-thumb.jpg" alt="Recto" />
+					<div class="ui-li-heading">Recto</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="tumores-infantiles.html">
+						<img src="../images/cancer/tumores-infantiles-thumb.jpg" alt="Tumores Infantiles" />
+					<div class="ui-li-heading">Tumores Infantiles</div>
+					<div class="ui-li-desc">Cada año se diagnostican 1.200 casos nuevos de tumores infantiles</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="vejiga.html">
+						<img src="../images/cancer/vejiga-thumb.jpg" alt="Vejiga" />
+					<div class="ui-li-heading">Vejiga</div>
+					<div class="ui-li-desc">órgano situado en la parte baja de la pelvis</div>
+					</a>
+					</li>
+				</ul>
+				</div>
+			</div><!--fin container_4-->
+				<div class="grid_8 info-cancer">
+					<div data-scroll="y" class="scrolling-content">
+						<h1>Cáncer de pulmón</h1>
+						<!--Menu de navegación-->
+						<div data-role="controlgroup" data-type="horizontal">
+							<a href="../tipos/pulmon.html" data-role="button" class="ui-btn-active">Ficha</a>
+							<a href="../tratamiento/pulmon.html" data-role="button">Tratamiento</a>
+						</div>
+						<h3>Introducción</h3>
+						<p>
+							El ser humano está constituido por dos pulmones <em>(derecho e izquierdo)</em> localizados en el tórax, protegido por las costillas, separados por el mediastino donde está ubicado el corazón. El pulmón derecho está formado por 3 lóbulos <em>(superior, medio e inferior)</em> y, de dimensión, mayor que el izquierdo, que tiene 2 lóbulos <em>(superior e inferior)</em>, por la localización desplazada del corazón hacia  este lado. Los pulmones están recubiertos por una doble membrana lubricada llamada pleura. La función principal del sistema pulmonar es la de extraer el oxígeno que procede del aire que respiramos <em>(inspiración)</em> y  eliminar el dióxido de carbono que nuestro cuerpo genera <em>(espiración)</em>.
+						</p>
+
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/pulmon-01.jpg" alt="Cáncer de pulmón" class="full-width-image float-left"/></a>
+						</div>
+
+						<p>
+							El cáncer de pulmón es el tumor maligno visceral más frecuente, responsable de más de un tercio de las muertes por cáncer y es la causa más común de muerte relacionada con cáncer tanto en mujeres como en hombres. La incidencia en hombres está disminuyendo y, por el contrario, en mujeres aumentando. Entre las causas que pueden producir cáncer de pulmón destacan:
+						</p>
+
+						<ul>
+							<li>
+								<strong>Tabaco:</strong> El consumo de cigarrillos causa más del 80% de los casos de cáncer de pulmón. El riesgo en fumadores es 30 veces mayor que en los no fumadores. Fumar cigarros en puro o en pipa dobla el riesgo en relación a los no fumadores. 
+							</li>
+							<li>
+								<strong>Asbesto:</strong> Su exposición, además de relacionarse con el cáncer de pulmón <em>(sobre todo en fumadores)</em>, puede producir un tipo de tumor maligno que afecta a la pleura <em>(Mesotelioma maligno)</em>.
+							</li>
+							<li>
+								<strong>Exposición a radiación:</strong> Puede incrementar el riesgo de cáncer de pulmón tanto en fumadores como en no fumadores. El radón se ha asociado con hasta un 6% de casos de cáncer.
+							</li>
+							<li>
+								<strong>El arsénico, níquel, compuestos con cromo, el éter clorometilo y los contaminantes atmosféricos</strong> son otras sustancias que se relacionan con el aumento de probabilidades de padecer cáncer de pulmón.
+							</li>
+							<li>
+								<strong>El cáncer de pulmón</strong>, en sí mismo, está asociado a un incremento del riesgo de tener un segundo cáncer de pulmón. 
+							</li>
+							<li>
+								<strong>Las cicatrices pulmonares y la Enfermedad Pulmonar Obstructiva Crónica <em>(EPOC)</em></strong>
+							</li>
+						</ul>
+						<p>El cáncer de pulmón se divide en 2 tipos histológicos:</p>
+						<ul>
+							<li>
+								<strong>Carcinoma microcítico:</strong> El carcinoma de células pequeñas o microcítico constituye el 15% de los cánceres pulmonares. Se localizan más frecuentemente en la región central o hiliar. Suelen estar asociados a un rápido deterioro clínico y con alto índice de recaídas, a pesar de las buenas respuestas clínicas y radiológicas iniciales que se consiguen.
+							</li>
+							<li>
+								<strong>Carcinoma no microcítico de pulmón:</strong>	Lo componen las variantes histológicas escamoso o epidermoide <em>(30%)</em>, adenocarcinoma y de células grandes <em>(ambos constituyen el 60%)</em>. El adenocarcinoma es el subtipo más frecuente en pacientes no fumadores y en mujeres jóvenes.
+							</li>
+						</ul>
+						<h3>Prevención</h3>
+						<p>
+							No fumar se considera la mejor forma de prevención en el cáncer de pulmón. Al dejar de fumar el riesgo disminuye progresivamente pero nunca se llega a igualar al de los no fumadores. Evitar <em>(o tomar las medidas adecuadas)</em> la exposición a agentes carcinógenos puede ser otra manera de prevención
+						</p>
+
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/pulmon-02.jpg" alt="Cáncer de pulmón" class="full-width-image float-left"/></a>
+						</div>
+
+						<h3>Diagnóstico Precoz</h3>
+						<p>
+							Estudios recientes sugieren que la realización de tomografía axial computerizada <em>(TAC)</em> puede detectar precozmente el cáncer de pulmón en personas de alto riesgo <em>(por ejemplo en grandes fumadores)</em>. No obstante, se requiere más investigación en este tema para poder evaluar el coste-beneficio de la realización de TAC para la detección precoz del cáncer de pulmón. 
+						</p>
+						<h3>Síntomas y diagnóstico clínico</h3>
+						<p>
+							Exploración física y valoración de síntomas: Hábito tabáquico, tos de reciente aparición o variable, esputos con sangre, falta de apetito con pérdida de peso, disnea <em>(falta de aire)</em>, dolor torácico…
+						</p>
+
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/pulmon-03.jpg" alt="Cáncer de pulmón" class="full-width-image float-left"/></a>
+						</div>
+
+						<p>Pruebas complementarias:</p>
+						<ul>
+							<li>
+								Analítica general <em>(hemograma, bioquímica, coagulación)</em>
+							</li>
+							<li>
+								Pruebas de imagen:
+								<ul>
+									<li>
+										<strong>Radiografía de tórax:</strong> Suele ser la primera prueba a realizar para poder confirmar la existencia de un nódulo pulmonar
+									</li>
+									<li>
+										<strong>Tomografía Axial Computerizada</strong> <em>(TAC o scanner)</em> de tórax y abdomen nos da una información más detallada de la lesión pulmonar y de si existe extensión a otros órganos <em>(ganglios linfáticos, hígado, hueso,…).</em>
+									</li>
+									<li>
+										<strong>Tomografía con emisión de positrones (PET):</strong> Es una tecnología basada en la captación diferencial de glucosa marcada por los tejidos neoplásicos en comparación con los sanos. Complementa el estudio realizado por el TAC y nos informa del grado de actividad tumoral.
+									</li>
+								</ul>
+							</li>
+							<li>
+								Obtención de células o tejido pulmonar:
+								<ul>
+									<li>
+										<strong>Citología de esputo.</strong> Consiste en el estudio celular de las secreciones bronquiales. Dada su escasa rentabilidad ha sido sustituida por otras, aunque se sigue realizando casi de forma rutinaria.
+									</li>
+									<li>
+										<strong>Fibrobroncoscopia:</strong> Prueba que nos permite una visualización directa de la vía respiratoria y de más del 50% de los tumores pulmonares. Nos permite además poder coger muestras que nos ayuden al diagnóstico histológico de la lesión.
+									</li>
+									<li>
+										<strong>Biopsia de la lesión de forma directa</strong> a través de la pared torácica hasta llegar a la lesión <em>(transcutánea)</em>.
+									</li>
+								</ul>
+							</li>
+						</ul>
+						
+						<a id="btn_tratamiento" data-icon="pill" data-iconpos="left" data-role="button" href="../tratamiento/pulmon.html" data-theme="c">Tratamiento</a>	
+					</div>
+				</div><!--fin grid_8 -->
+			</div><!--fin container_12-->
+		<div data-role="footer" id="footer" data-id="main-footer" class="ui-body-d" data-position="fixed" role="contentinfo">
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li>
+						<a href="../index.html" id="tab-bar-home" data-icon="libro">
+							Oncoguia
+						</a>
+					</li>
+					<li>
+						<a href="../prevencion.html" id="tab-bar-prevencion" data-icon="cruz">
+							El cáncer. Prevención
+						</a>
+					</li>
+					<li>
+						<a href="#" id="tab-bar-tipos" data-icon="ficha" class="ui-btn-active ui-state-persist" >
+							Tipos de cáncer
+						</a>
+					</li>
+					<li>
+						<a href="../apoyo.html" id="tab-bar-apoyo" data-icon="corazon">
+							Apoyo Psicológico
+						</a>
+					</li>
+					<li>
+						<a href="../imo.html" id="tab-bar-imo" data-icon="imo">
+							Fundación Grupo IMO
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div><!--fin footer-->
+		</div><!--fin home-->
+	</body>
+	</html>

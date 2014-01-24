@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OncoGuía</title>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../css/jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.scrollview.css" />
+		<link rel="stylesheet" href="../css/imo.css"/>
+		<link rel="stylesheet" href="../css/custom.css"/>
+		<link rel="stylesheet" href="../css/grid/jquery-mobile-fluid960.min.css"/>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/general.functions.js"></script>
+		<script src="../js/jquery.mobile-1.1.0.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/jquery.mobile.scrollview.js"></script>
+		<script src="../js/scrollview.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="detalle-cancer" data-theme="c">
+			<div data-role="header" data-id="cabecera"  data-position="fixed">
+			<a href="#" data-theme="c" data-icon="back" data-rel="back" data-position="inline">Volver</a>
+				<h1>
+					 OncoGuía - Tratamientos contra el cáncer
+				</h1>
+			</div>
+			<div data-role="content" class="container_12 ui-scrollview-clip">
+			<div class="grid_4">
+				<div data-scroll="y" class="scrolling-content w-background">
+				<ul id="cancer-list" data-filter="true" data-filter-theme="f" data-role="listview" data-theme="a" data-inset="true">
+					<li>
+					<a href="adenoma-de-hipofisis.html">
+					<img src="../images/cancer/adenoma-hipofisis-thumb.jpg" alt="Adenoma de Hipófisis" />
+					<div class="ui-li-heading">Adenoma de Hipófisis</div>
+					<div class="ui-li-desc">Glándula situada en la silla turca</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="colon.html">
+					<img src="../images/cancer/colon-thumb.jpg" alt="Colon" />
+					<div class="ui-li-heading">Colon</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="cuello-uterino-cervix.html">
+					<img src="../images/cancer/cuello-uterino-cervix-thumb.jpg" alt="Cuello Uterino/Cérvix" />
+					<div class="ui-li-heading">Cuello Uterino/Cérvix</div>
+					<div class="ui-li-desc">parte más inferior del aparato rep. femenino</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="endometrio-utero.html">
+						<img src="../images/cancer/endometrio-utero-thumb.jpg" alt="Endometrio/útero" />
+					<div class="ui-li-heading">Endometrio/útero</div>
+					<div class="ui-li-desc">órgano hueco, situado en la pelvis.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="esofago.html">
+						<img src="../images/cancer/esofago-thumb.jpg" alt="Esófago" />
+					<div class="ui-li-heading">Esófago</div>
+					<div class="ui-li-desc">tubo hueco que transporta los alimentos</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="estomago.html">
+						<img src="../images/cancer/estomago-thumb.jpg" alt="Estómago" />
+					<div class="ui-li-heading">Estómago</div>
+					<div class="ui-li-desc">sitúado en la parte alta del abdomen</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="gliomas.html">
+						<img src="../images/cancer/gliomas-thumb.jpg" alt="Gliomas" />
+					<div class="ui-li-heading">Gliomas</div>
+					<div class="ui-li-desc">Tumores cerebrales que proceden de las células gliales</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="mama.html">
+						<img src="../images/cancer/mama-thumb.jpg" alt="Mama" />
+					<div class="ui-li-heading">Mama</div>
+					<div class="ui-li-desc">Glándula destinada a la producción de leche</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="tumor-medula-espinal.html">
+						<img src="../images/cancer/medula-espinal-thumb.jpg" alt="Tumor Médula Espinal" />
+					<div class="ui-li-heading">Médula Espinal</div>
+					<div class="ui-li-desc">el tejido nervioso más extenso del cuerpo</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meduloblastoma.html">
+						<img src="../images/cancer/meduloblastoma-thumb.jpg" alt="Meduloblastoma" />
+					<div class="ui-li-heading">Meduloblastoma</div>
+					<div class="ui-li-desc">tumores malignos en la fosa posterior del cerebro</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="melanoma.html">
+						<img src="../images/cancer/melanoma-thumb.jpg" alt="Melanoma" />
+					<div class="ui-li-heading">Melanoma</div>
+					<div class="ui-li-desc">Crecimiento de los melanocitos</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meningiomas.html">
+						<img src="../images/cancer/meningiomas-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">Meningiomas</div>
+					<div class="ui-li-desc">Tumor cerebral usualmente benigno</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="metastasis-cerebrales.html">
+						<img src="../images/cancer/metastasis-cerebrales-thumb.jpg" alt="Metástasis Cerebrales" />
+					<div class="ui-li-heading">Metástasis Cerebrales</div>
+					<div class="ui-li-desc">Lesiones tumorales situadas en el cerebro y que proceden de otros tumores</div>
+					</a>
+					</li>
+				
+					<li>
+					<a href="no-melanoma.html">
+						<img src="../images/cancer/no-melanoma-thumb.jpg" alt="No Melanoma" />
+					<div class="ui-li-heading">No Melanoma</div>
+					<div class="ui-li-desc">El tumor más frecuente del ser humano</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="pancreas.html">
+						<img src="../images/cancer/pancreas-thumb.jpg" alt="Páncreas" />
+					<div class="ui-li-heading">Páncreas</div>
+					<div class="ui-li-desc">Glándula que participa en el proceso de la digestión</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="prostata.html">
+						<img src="../images/cancer/prostata-thumb.jpg" alt="Próstata" />
+					<div class="ui-li-heading">Próstata</div>
+					<div class="ui-li-desc">Glándula sexual exclusiva de los varones</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="pulmon.html">
+						<img src="../images/cancer/pulmon-thumb.jpg" alt="Pulmón" />
+					<div class="ui-li-heading">Pulmón</div>
+					<div class="ui-li-desc">Dos pulmones (derecho e izquierdo) localizados en el tórax.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="recto.html">
+						<img src="../images/cancer/recto-thumb.jpg" alt="Recto" />
+					<div class="ui-li-heading">Recto</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+
+					<li data-theme="b">
+					<a href="tumores-infantiles.html">
+						<img src="../images/cancer/tumores-infantiles-thumb.jpg" alt="Tumores Infantiles" />
+					<div class="ui-li-heading">Tumores Infantiles</div>
+					<div class="ui-li-desc">Cada año se diagnostican 1.200 casos nuevos de tumores infantiles</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="vejiga.html">
+						<img src="../images/cancer/vejiga-thumb.jpg" alt="Vejiga" />
+					<div class="ui-li-heading">Vejiga</div>
+					<div class="ui-li-desc">órgano situado en la parte baja de la pelvis</div>
+					</a>
+					</li>
+				</ul>
+				</div>
+			</div><!--fin container_4-->
+			<div class="grid_8 info-cancer">
+				<div data-scroll="y" class="scrolling-content">
+								
+				<h1>Tumores infantiles</h1>
+				<!--Menu de navegación-->
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="../tipos/tumores-infantiles.html" data-role="button">Ficha</a>
+					<a href="../tratamiento/tumores-infantiles.html" data-role="button" class="ui-btn-active">Tratamiento</a>
+				</div>
+						<h3>Tratamiento</h3>
+						<p>El tratamiento del cáncer en los niños debe realizarse en Unidades Pediátricas Oncológicas, constituidas por un equipo multidisciplinar con experiencia en el tratamiento de esta enfermedad. En general, el tratamiento depende del tipo de tumor, de su extensión, de la agresividad y por supuesto, la edad del niño juega un papel fundamental en la decisión terapéutica.</p>
+
+						<p>El objetivo principal del tratamiento del cáncer pediátrico es la curación, con prioridad absoluta sobre cualquier efecto secundario, incluyendo los riesgos a largo plazo.</p> 
+
+						<p>En general  puede incluir:</p> 
+
+						<!--imagen-->
+						<div class="half-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/tumoresinfantilescirugia.jpg" alt="Tumores infantiles" class="half-width-image float-left"/></a>
+						</div>
+
+						<ul>
+							<li><strong>CIRUGÍA:</strong> en aquellos niños que presentan tumores sólidos y localizados, en los que no han aparecido metástasis (diseminación a otros órganos), la cirugía es una herramienta eficaz para combatir esta  enfermedad, generalmente combinada con quimioterapia y/o tratamiento con radiaciones.</li>
+
+							<li><strong>QUIMIOTERAPIA:</strong> es la administración de medicamentos por diversas vías <em>(oral, intravenosa, intratecal…)</em> de modo que penetren en el torrente sanguíneo y puedan destruir las células tumorales en todas las partes del cuerpo donde se encuentran. En la mayor parte de los casos, el tratamiento con quimioterapia sigue rigurosamente los protocolos internacionales de tratamiento.</li>
+
+							<!--imagen-->
+							<div class="half-width-image-container float-right">
+							<a href="#"><img src="../images/cancer/tumores-infantiles-06.jpg" alt="Tumores infantiles" class="half-width-image float-right"/></a>
+							</div>
+
+							<li style="list-style:none;">La periodicidad, la vía de administración, el tipo de fármaco empleado y la duración de la quimioterapia, dependen del tipo de cáncer que padezca el niño y de su respuesta al tratamiento. 
+							La quimioterapia,  presenta efectos secundarios más o menos severos que pueden aparecer en un periodo de tiempo corto o después de meses o incluso años. Los síntomas agudos más frecuentes son  náuseas, vómitos, alopecia <em>(pérdida del pelo)</em>, anemia y disminución de las células de la defensa con mayor riesgo de infecciones. Los efectos crónicos de la quimioterapia en los niños son muy variados e incluyen alteraciones en el crecimiento, lesiones en órganos internos como el hígado o el corazón, infertilidad por lesión de las gónadas e incremento del riesgo de padecer en el futuro otros cánceres. En algunos casos se combina con el transplante de médula ósea que favorece el crecimiento de nuevas células productoras de células sanguíneas sanas.</li>
+							
+							<li><strong>TRATAMIENTO CON RADIACIONES:</strong> la radiación es capaz de destruir y dañar las células tumorales, y en niños suele utilizarse combinada con la quimioterapia y/o la cirugía. Es un tratamiento localizado y generalmente ambulatorio que se administra en forma de sesiones diarias, 5 veces por semana hasta su finalización. </li>
+
+							<li style="list-style:none;">La radioterapia en niños, con técnicas tradicionales, suele tener efectos secundarios severos a pesar de afectar exclusivamente a la zona irradiada. Estos efectos secundarios son variables dependiendo de la zona que reciba la radiación y pueden ser a corto plazo <em>(inflamación y enrojecimiento de la piel, náuseas, somnolencia, disminución de recuento de células sanguíneas…) </em>y a largo plazo, destacando el  riesgo de  aparición de otros cánceres en el futuro.</li>
+
+
+						<li style="list-style:none;">
+							Sin embargo, los tratamientos con radiaciones han evolucionado muy rápidamente en los últimos años gracias al desarrollo tecnológico, lo que permite actualmente la administración de este tipo de tratamientos de forma más precisa y segura, con mayor eficacia y con menos efectos secundarios, que han permitido incluso, poder administrar este tratamiento a pacientes de muy corta edad. Así, por ejemplo, existen grandes avances tecnológicos en tratamiento con radiaciones en pacientes pediátricos como:
+						</li>
+						</ul>
+						<!--imagen-->
+						<div class="half-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/tumores-infantiles-05.jpg" alt="Tumores infantiles" class="half-width-image float-left"/></a>
+						</div>
+						<ul>
+							<li><strong>Tomoterapia:</strong> es la técnica mas apropiada de Radioterapia en el tratamiento de niños ya que consigue una buena dosis terapéutica sobre el tumor y preserva el tejido  circundante normal por lo que el riesgo de desarrollar toxicidad es menor.</li>
+
+							<li style="list-style:none;">Ofrece la posibilidad de tratar tumores en niños que, sin esta técnica, no se podrían tratar. Muchos órganos o tejidos en los niños están en fase de crecimiento, sobre todo, los huesos. La Radioterapia convencional puede afectar a estas zonas y dar lugar a alteraciones posteriores. Con Tomoterapia, al utilizar una forma de radiación que se aplica mediante miles de haces muy finos que convergen en el tumor, se evitan las trayectorias que afectarían a esos órganos más críticos.</li>
+
+							<li style="list-style:none;">Es el procedimiento más avanzado con alta tecnología que permite administrar un tratamiento de radioterapia helicoidal, altamente adaptado a cada paciente, por lo que consigue reducir al máximo la dosis de radiación que llegan a los órganos sanos que rodean el tumor. La Tomoterapia incluye un sistema de TAC (scanner) que se realiza diariamente para conocer la posición  exacta del lecho quirúrgico o del tumor, de los órganos sanos y del paciente. Con este TAC, se ajusta la posición de tratamiento  y minimiza el riesgo de error de colocación. Los efectos secundarios derivados de este tratamiento son mínimos, por lo que la calidad de vida del paciente, durante y tras el tratamiento es excelente.</li>
+						</ul>
+						<h3>Pronóstico</h3>
+						<p>Depende del tipo de tumor y del momento en el que se diagnostica la enfermedad. Por regla general, aquellos tumores diagnosticados en etapas más tempranas tienen un mejor pronóstico. La localización del tumor también se relaciona con el pronóstico, teniendo una evolución más favorable aquellos localizados en las extremidades comparados con los que se localizan en regiones centrales (cabeza, cadera, etc.). La presentación del tumor al diagnóstico también es un factor pronóstico, teniendo mejor pronóstico aquellos tumores localizados en una sola región frente aquellos que se encuentran en varias regiones desde el inicio.</p>
+						<h3>Aspecto Pico-oncológico</h3>
+						<p>Durante la última década, gracias a los avances en las técnicas diagnósticas y alternativas terapéuticas, la supervivencia de los niños y adolescentes con cáncer ha aumentado notablemente. De hecho, el tratamiento de esta enfermedad constituye uno de los éxitos terapéuticos más importantes de la medicina actual.</p>
+
+						<!--imagen-->
+						<div class="full-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/tumores-infantiles-07.jpg" alt="Tumores infantiles" class="full-width-image float-left"/></a>
+						</div>
+
+						<p>Pero indudablemente, los niños y especialmente los padres, viven esta experiencia con un gran dolor, incertidumbre y miedo. Toda la familia necesitará hacer frente a esta nueva situación inesperada e imprevisible y que resulta especialmente impactante.</p> 
+
+						<p>Los padres tienen que aprender a convivir con las necesidades de cuidado del niño enfermo, atender las necesidades de los otros hijos y familiares, el trabajo, las tareas diarias y los ratos de esparcimiento para normalizar la vida familiar y social.</p>
+
+						<p>Una buena comunicación con el médico para informarse sobre la enfermedad y los tratamientos, una comunicación abierta y adaptada a las necesidades del niño y adolescente con cáncer así como un buen apoyo familiar y social permiten mejorar la adaptación y afrontamiento de la enfermedad.</p> 
+
+						<p>Recibir apoyo profesional es importante para manejar el estrés asociado al diagnóstico y tratamiento y facilitar la adaptación del niño a la enfermedad. Actualmente, las políticas psicosociales permiten una reincorporación plena del niño y adolescente con cáncer a su vida escolar, familiar y social.</p>
+
+						<p>Si necesita más información sobre cómo afrontar un diagnóstico de un tumor infantil en su hijo, le ofrecemos unas pautas que le podrán ayudar a asumir y a adaptarse a la nueva situación. Puede consultarlas en el apartado de <a href="../apoyo.html">Apoyo Psicológico</a>.</p> 
+
+						<p>Asimismo, si quiere conocer las experiencias y testimonios de personas que han superado esta enfermedad puede consultar en <a target="_blank" href="http://www.curadosdecancer.com">Curados de cáncer</a>.</p>
+
+					</div>
+				</div><!--fin grid_6-->
+		</div><!--fin container_12-->
+	<div data-role="footer" id="footer" data-id="main-footer" class="ui-body-d" data-position="fixed" role="contentinfo">
+		<div data-role="navbar" data-iconpos="top">
+			<ul>
+				<li>
+					<a href="../index.html" id="tab-bar-home" data-icon="libro">
+						Oncoguia
+					</a>
+				</li>
+				<li>
+					<a href="../prevencion.html" id="tab-bar-prevencion" data-icon="cruz">
+						El cáncer. Prevención
+					</a>
+				</li>
+				<li>
+					<a href="#" id="tab-bar-tipos" data-icon="ficha" class="ui-btn-active ui-state-persist" >
+						Tipos de cáncer
+					</a>
+				</li>
+				<li>
+					<a href="../apoyo.html" id="tab-bar-apoyo" data-icon="corazon">
+						Apoyo Psicológico
+					</a>
+				</li>
+				<li>
+					<a href="../imo.html" id="tab-bar-imo" data-icon="imo">
+						Fundación Grupo IMO
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div><!--fin footer-->
+	</div><!--fin home-->
+</body>
+</html>

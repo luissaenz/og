@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OncoGuía</title>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../css/jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.scrollview.css" />
+		<link rel="stylesheet" href="../css/imo.css"/>
+		<link rel="stylesheet" href="../css/custom.css"/>
+		<link rel="stylesheet" href="../css/grid/jquery-mobile-fluid960.min.css"/>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/general.functions.js"></script>
+		<script src="../js/jquery.mobile-1.1.0.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/jquery.mobile.scrollview.js"></script>
+		<script src="../js/scrollview.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="detalle-cancer" data-theme="c">
+			<div data-role="header" data-id="cabecera"  data-position="fixed">
+			<a href="#" data-theme="c" data-icon="back" data-rel="back" data-position="inline">Volver</a>
+				<h1>
+					 OncoGuía - Tratamientos contra el cáncer
+				</h1>
+			</div>
+			<div data-role="content" class="container_12 ui-scrollview-clip">
+			<div class="grid_4">
+				<div data-scroll="y" class="scrolling-content w-background">
+				<ul id="cancer-list" data-filter="true" data-filter-theme="f" data-role="listview" data-theme="a" data-inset="true">
+					<li>
+					<a href="adenoma-de-hipofisis.html">
+					<img src="../images/cancer/adenoma-hipofisis-thumb.jpg" alt="Adenoma de Hipófisis" />
+					<div class="ui-li-heading">Adenoma de Hipófisis</div>
+					<div class="ui-li-desc">Glándula situada en la silla turca</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="colon.html">
+					<img src="../images/cancer/colon-thumb.jpg" alt="Colon" />
+					<div class="ui-li-heading">Colon</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="cuello-uterino-cervix.html">
+					<img src="../images/cancer/cuello-uterino-cervix-thumb.jpg" alt="Cuello Uterino/Cérvix" />
+					<div class="ui-li-heading">Cuello Uterino/Cérvix</div>
+					<div class="ui-li-desc">parte más inferior del aparato rep. femenino</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="endometrio-utero.html">
+						<img src="../images/cancer/endometrio-utero-thumb.jpg" alt="Endometrio/útero" />
+					<div class="ui-li-heading">Endometrio/útero</div>
+					<div class="ui-li-desc">órgano hueco, situado en la pelvis.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="esofago.html">
+						<img src="../images/cancer/esofago-thumb.jpg" alt="Esófago" />
+					<div class="ui-li-heading">Esófago</div>
+					<div class="ui-li-desc">tubo hueco que transporta los alimentos</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="estomago.html">
+						<img src="../images/cancer/estomago-thumb.jpg" alt="Estómago" />
+					<div class="ui-li-heading">Estómago</div>
+					<div class="ui-li-desc">sitúado en la parte alta del abdomen</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="gliomas.html">
+						<img src="../images/cancer/gliomas-thumb.jpg" alt="Gliomas" />
+					<div class="ui-li-heading">Gliomas</div>
+					<div class="ui-li-desc">Tumores cerebrales que proceden de las células gliales</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="mama.html">
+						<img src="../images/cancer/mama-thumb.jpg" alt="Mama" />
+					<div class="ui-li-heading">Mama</div>
+					<div class="ui-li-desc">Glándula destinada a la producción de leche</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="tumor-medula-espinal.html">
+						<img src="../images/cancer/medula-espinal-thumb.jpg" alt="Tumor Médula Espinal" />
+					<div class="ui-li-heading">Médula Espinal</div>
+					<div class="ui-li-desc">el tejido nervioso más extenso del cuerpo</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meduloblastoma.html">
+						<img src="../images/cancer/meduloblastoma-thumb.jpg" alt="Meduloblastoma" />
+					<div class="ui-li-heading">Meduloblastoma</div>
+					<div class="ui-li-desc">tumores malignos en la fosa posterior del cerebro</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="melanoma.html">
+						<img src="../images/cancer/melanoma-thumb.jpg" alt="Melanoma" />
+					<div class="ui-li-heading">Melanoma</div>
+					<div class="ui-li-desc">Crecimiento de los melanocitos</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="meningiomas.html">
+						<img src="../images/cancer/meningiomas-thumb.jpg" alt="Meningiomas" />
+					<div class="ui-li-heading">Meningiomas</div>
+					<div class="ui-li-desc">Tumor cerebral usualmente benigno</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="metastasis-cerebrales.html">
+						<img src="../images/cancer/metastasis-cerebrales-thumb.jpg" alt="Metástasis Cerebrales" />
+					<div class="ui-li-heading">Metástasis Cerebrales</div>
+					<div class="ui-li-desc">Lesiones tumorales situadas en el cerebro y que proceden de otros tumores</div>
+					</a>
+					</li>
+				
+					<li>
+					<a href="no-melanoma.html">
+						<img src="../images/cancer/no-melanoma-thumb.jpg" alt="No Melanoma" />
+					<div class="ui-li-heading">No Melanoma</div>
+					<div class="ui-li-desc">El tumor más frecuente del ser humano</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="pancreas.html">
+						<img src="../images/cancer/pancreas-thumb.jpg" alt="Páncreas" />
+					<div class="ui-li-heading">Páncreas</div>
+					<div class="ui-li-desc">Glándula que participa en el proceso de la digestión</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="prostata.html">
+						<img src="../images/cancer/prostata-thumb.jpg" alt="Próstata" />
+					<div class="ui-li-heading">Próstata</div>
+					<div class="ui-li-desc">Glándula sexual exclusiva de los varones</div>
+					</a>
+					</li>
+
+					<li data-theme="b">
+					<a href="pulmon.html">
+						<img src="../images/cancer/pulmon-thumb.jpg" alt="Pulmón" />
+					<div class="ui-li-heading">Pulmón</div>
+					<div class="ui-li-desc">Dos pulmones (derecho e izquierdo) localizados en el tórax.</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="recto.html">
+						<img src="../images/cancer/recto-thumb.jpg" alt="Recto" />
+					<div class="ui-li-heading">Recto</div>
+					<div class="ui-li-desc">La última porción del aparato digestivo</div>
+					</a>
+					</li>
+
+					<li>
+					<a href="tumores-infantiles.html">
+						<img src="../images/cancer/tumores-infantiles-thumb.jpg" alt="Tumores Infantiles" />
+					<div class="ui-li-heading">Tumores Infantiles</div>
+					<div class="ui-li-desc">Cada año se diagnostican 1.200 casos nuevos de tumores infantiles</div>
+					</a>
+					</li>
+					
+					<li>
+					<a href="vejiga.html">
+						<img src="../images/cancer/vejiga-thumb.jpg" alt="Vejiga" />
+					<div class="ui-li-heading">Vejiga</div>
+					<div class="ui-li-desc">órgano situado en la parte baja de la pelvis</div>
+					</a>
+					</li>
+				</ul>
+				</div>
+			</div><!--fin container_4-->
+			<div class="grid_8 info-cancer">
+				<div data-scroll="y" class="scrolling-content">
+								
+				<h1>Cáncer de pulmón</h1>
+				<!--Menu de navegación-->
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="../tipos/pulmon.html" data-role="button">Ficha</a>
+					<a href="../tratamiento/pulmon.html" data-role="button" class="ui-btn-active">Tratamiento</a>
+				</div>
+						<h3>Tratamiento</h3>
+						<p>
+							Si se diagnostica un carcinoma no microcítico de pulmón <em>(CNMP)</em>, el estudio posterior debe ir encaminado a determinar qué modalidades de tratamiento <em>(cirugía, quimioterapia y/o radioterapia)</em> deben ser empleadas. 
+						</p>
+
+						<!--imagen-->
+						<div class="half-width-image-container float-left">
+						<a href="#"><img src="../images/cancer/pulmon-04.jpg" alt="Cáncer de pulmón" class="half-width-image float-left"/></a>
+						</div>
+
+						<h3>Cirugía</h3>
+						<p>Considerada actualmente el tratamiento estándar en los estadios iniciales de la enfermedad. Debe ser realizada una valoración de si el tumor es operable <em>(el paciente reúne condiciones fisiológicas suficientes para el procedimiento quirúrgico)</em> o resecable <em>(el tumor puede ser extirpado quirúrgicamente con márgenes amplios)</em>.</p>
+						<!--imagen-->
+						<div class="half-width-image-container float-right">
+						<a href="#"><img src="../images/cancer/pulmon-07.jpg" alt="Cáncer de pulmón" class="half-width-image float-right"/></a>
+						</div>
+						<h3>Quimioterapia</h3>
+						<p>
+							Se utiliza normalmente una combinación de fármacos. Puede administrarse antes o después del tratamiento quirúrgico.  De forma exclusiva o asociada a radioterapia, se aplica cuando el paciente no es candidato a la cirugía.
+						</p>
+						<p>&nbsp;</p>
+
+						<h3>Radioterapia</h3>
+						<p>
+							Puede utilizarse asociada a la quimioterapia <em>(estadios iniciales y avanzados)</em> o de forma exclusiva <em>(en estadios iniciales)</em>. Actualmente, existen diferentes tipos:
+						</p>
+						
+						
+
+						<ul>
+							<li>
+								<strong>Radioterapia 3D conformada (3D-CRT):</strong> Su administración requiere la utilización de aceleradores lineales. La planificación del tratamiento se realiza a través de una TAC con y sin contraste iodado.
+							</li>
+							<li>
+								<strong>Radioterapia con intensidad modulada de dosis (IMRT):</strong> Técnica más reciente que permite la administración de la radiación de manera que el tejido sano (pulmón sano, tráquea y bronquios, esófago, medula espinal, corazón,…) reciba menos dosis, por lo que la toxicidad será inferior a la 3D-CRT.
+							</li>
+							<li>
+								<strong>Tomoterapia:</strong> Debido a que las lesiones localizadas en el pulmón se mueven sincrónicamente con la respiración y para poder tener una mayor precisión en la administración de la radiación, se ha desarrollado la llamada <strong>Radioterapia Guiada por Imagen (IGRT)</strong>, que precisa de avances tecnológicos asociados a los aceleradores lineales. La TOMOTERAPIA posee las ventajas de la IMRT por un lado y de la IGRT (realiza una TAC especial diariamente que nos permite saber, justo antes de administrar el tratamiento, la posición del paciente y de la lesión a tratar) por otro.
+							</li>
+							<!--imagen-->
+						<div class="half-width-image-container float-right">
+						<a href="#"><img src="../images/cancer/pulmon-05.jpg" alt="Cáncer de pulmón" class="half-width-image float-right"/></a>
+						</div>
+							<li>
+								<strong>Cyberknife:</strong> Técnica emergente que permite la administración de radioterapia estereotáxica corporal (SBRT). Es aplicable sobre todo en pacientes que padecen cáncer de pulmón en sus estadios iniciales y que no son candidatos a la cirugía. Consiste en la administración de una dosis más alta en menos días de tratamiento. Para ello, se requiere potentes avances tecnológicos que permitan hacerlo con la máxima precisión y menor toxicidad que con otras técnicas. <strong>La radiocirugía robotizada guiada por imagen (sistema CYBERKNIFE)</strong> permite este tipo de tratamientos con la ventaja de que puede memorizar la respiración del paciente en tiempo real durante todo el proceso, consiguiendo así una precisión extrema en la administración de la radiación. Esto se traduce en una menor probabilidad de efectos secundarios asociado a un mayor control local de la Enfermedad.
+							</li>
+						</ul>
+						<p>
+							Si se diagnostica de un carcinoma microcítico de pulmón <em>(CMP)</em>, la evaluación se dirige a determinar si el paciente tiene una enfermedad limitada al tórax o está diseminada por otros órganos, ya que de esto dependerá el pronóstico y el tratamiento a aplicar. Generalmente el tratamiento de los CMP se basa en quimioterapia, mediante la combinación de fármacos, con radioterapia asociada en aquellos casos en que la enfermedad se encuentra limitada en el tórax. La cirugía sólo se utiliza ocasionalmente.
+						</p>
+						<h3>Pronóstico</h3>
+						<p>
+							El pronóstico depende de varios factores:
+						</p>
+						<ul>
+							<li>
+								<strong>Factores clínicos:</strong> la edad avanzada, las enfermedades asociadas <em>(cardiopatías, enfermedades pulmonares, etc.)</em>, la disminución de la capacidad funcional y la pérdida de peso se asocian con un peor pronóstico.
+							</li>
+							<li>
+								<strong>Factores tumorales:</strong> cuanto más temprano sea el diagnóstico <em>(estadíos I y II)</em>, mejor es el pronóstico. La localización del tumor también repercute en el pronóstico siendo más favorables aquellos que no invaden estructuras críticas como son las vértebras o el mediastino <em>(parte central del tórax donde se encuentran alojados la tráquea, el esófago y el corazón).</em>
+							</li>
+							<li>
+								<strong>Factores terapéuticos:</strong> la asociación de quimioterapia y radioterapia mejora la supervivencia en pacientes con cáncer de pulmón avanzado <em>(estadío III).</em> Adicionalmente, las técnicas de radioterapia más avanzadas <em>(ej. Tomoterapia)</em> se asocian a un menor riesgo de efectos secundarios.
+							</li>
+						</ul>
+						<h3>Aspecto Psico-Oncológico</h3>
+						<p>
+							En los últimos años, se están realizando importantes avances en el tratamiento del cáncer de pulmón, lo que está aumentando de forma notable la supervivencia y la calidad de vida de las personas que los presentan.
+						</p>
+						<p>
+							El diagnóstico de un cáncer de pulmón puede relacionarse con las reacciones emocionales de ansiedad, miedo y preocupación ante el futuro derivadas del diagnóstico, con la característica añadida del sentimiento de responsabilidad o culpa si el tumor está relacionado con el consumo de tabaco. 
+						</p>
+						<p>
+							A ello se une la incertidumbre ante el futuro y la preocupación ante los síntomas físicos asociados a esta enfermedad como la fatiga, disnea, tos que pueden provocar problemas de ansiedad por sensación de ahogo, ataques de pánico y bajo estado de ánimo, pudiendo aumentar el malestar psicológico tanto en el paciente como en la familia.
+						</p>
+						<p>
+							Si necesita más información sobre cómo afrontar un diagnóstico de un cáncer de pulmón, le ofrecemos unas pautas que le podrán ayudar a asumir y a adaptarse a la nueva situación. Puede consultarlas en el apartado de <a href="../apoyo.html">Apoyo Psicológico</a>
+						</p>
+						<p>
+							Asimismo, si quiere conocer las experiencias y testimonios de personas que han superado esta enfermedad puede consultar en <a target="_blank" href="http://www.curadosdecancer.com">Curados de cáncer </a>
+						</p>
+					</div>
+				</div><!--fin grid_6-->
+		</div><!--fin container_12-->
+	<div data-role="footer" id="footer" data-id="main-footer" class="ui-body-d" data-position="fixed" role="contentinfo">
+		<div data-role="navbar" data-iconpos="top">
+			<ul>
+				<li>
+					<a href="../index.html" id="tab-bar-home" data-icon="libro">
+						Oncoguia
+					</a>
+				</li>
+				<li>
+					<a href="../prevencion.html" id="tab-bar-prevencion" data-icon="cruz">
+						El cáncer. Prevención
+					</a>
+				</li>
+				<li>
+					<a href="#" id="tab-bar-tipos" data-icon="ficha" class="ui-btn-active ui-state-persist" >
+						Tipos de cáncer
+					</a>
+				</li>
+				<li>
+					<a href="../apoyo.html" id="tab-bar-apoyo" data-icon="corazon">
+						Apoyo Psicológico
+					</a>
+				</li>
+				<li>
+					<a href="../imo.html" id="tab-bar-imo" data-icon="imo">
+						Fundación Grupo IMO
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div><!--fin footer-->
+	</div><!--fin home-->
+</body>
+</html>
